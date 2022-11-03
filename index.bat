@@ -8,7 +8,7 @@ set today=%Year%-%fmonth:~-2%-%fday:~-2%
 ^ This can be changed from whatever date - Or if you remove this code it will go after all the files down below rather than select dates 
 
 ::Copying the File
-copy *Insert file location here and file destination here (seperate both with spacebar) <- If you're after a specific date in the code above include %setdate%
+copy C:\Program Files\Test Folder\*Insert file name (if blank will transfer all files)* C:\Program Files\Folder Recieve\
 
 
 
